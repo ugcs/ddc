@@ -28,13 +28,13 @@ System requirements
 
 System requirements for UgCS DDC are the same as system requirements for UgCS:
 
-- *Operating system:* Windows 7 with SP1 or later; Windows 8; Windows 10
-- *CPU:* Core 2 Duo or Athlon X2 at 2.4 GHz or better
-- *Memory:* Minimum 2 GB of RAM, Recommended: 4 GB of RAM or more
-- *Hard drive:* 2 GB of free space
+- *Operating system:* Windows 7 with SP1 or later; Windows 8; Windows 10.
+- *CPU:* Intel Core i7 or better.
+- *Memory:* Minimum 8 GB of RAM or more.
+- *Hard drive:* SSD 120GB. Recommended 256GB or more.
 - *Graphics hardware:* Graphics card with DirectX 9 support (shader model 2.0). Any card made since 2004 should work.
-- *Network:* TCP/IPv4 network stack
-- *Screen resolution:* Minimum supported screen resolution: 1024x768
+- *Network:* TCP/IPv4 network stack, WiFi or Ethernet. Recommended Ethernet.
+- *Screen resolution:* FullHD screen.
 
 Further information
 -------------------
