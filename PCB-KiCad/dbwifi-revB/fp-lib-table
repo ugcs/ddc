@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ddc)(type KiCad)(uri ${KIPRJMOD}/../lib/kicad/ddc.pretty)(options "")(descr ""))
+)

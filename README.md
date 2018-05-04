@@ -21,6 +21,8 @@ For drone show purposes, drones can be equipped with LED modules or other show e
 
 - [**LED**](./LED) contains the schematics and bill of materials for building LED modules that are used in drone shows
 
+- [**PCB-KiCad**](./PCB-KiCad) contains PCB source project files for [KiCad EDA](http://kicad-pcb.org/)
+
 - [**WiFi**](./WiFi) contains information regarding setting up WiFi modules which enable simultaneous communication between the drones and the ground station
 
 System requirements
@@ -35,6 +37,11 @@ System requirements for UgCS DDC are the same as system requirements for UgCS:
 - *Graphics hardware:* Graphics card with DirectX 9 support (shader model 2.0). Any card made since 2004 should work.
 - *Network:* TCP/IPv4 network stack, WiFi or Ethernet. Recommended Ethernet.
 - *Screen resolution:* FullHD screen.
+
+Licence
+-------
+
+All contents except third party ones are licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 Further information
 -------------------

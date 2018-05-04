@@ -1,0 +1,165 @@
+EESchema-DOCLIB  Version 2.0 Date: 18/09/2017 18:18:37
+#
+$CMP LED-Driver-3W-700mA
+D LED Driver, 3 W, 400 mA, 7-30 V
+K Module, Driver
+$ENDCMP
+#
+$CMP JH-9RGB14G45
+D High Power RGB LED, 9W
+K IC, LED
+F http://www.ledguhon.com/u_file/images/14_12_24/50132e30fb.pdf
+$ENDCMP
+#
+$CMP XT30PWM
+D Battery Connector
+K Connector, Male
+$ENDCMP
+#
+$CMP 90136-1202
+D Header, Single Row, Vertical, Shrouded, 2 Circuits
+K Connector, Male
+F http://www.molex.com/pdm_docs/sd/901361202_sd.pdf
+$ENDCMP
+#
+$CMP MBRS540T3G
+D Surface Mount Schottky Power Rectifier
+K Diode, Schottky
+F http://www.onsemi.com/pub/Collateral/MBRS540T3-D.PDF
+$ENDCMP
+#
+$CMP 63849-1
+D Faston 250 PCB Tab
+K Connector, Terminal
+F http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=63849&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=63849-1
+$ENDCMP
+#
+$CMP MH-3.2-5
+D Mounting Hole, 3.2 mm hole diameter, 5 mm pad diameter
+K Mounting hole
+$ENDCMP
+#
+$CMP XT60PB
+D Battery Connector
+K Connector
+$ENDCMP
+#
+$CMP PT4115E
+D 30V, 1.2A Step-down High Brightness LED Driver with 5000:1 Dimming
+K IC, Analog, Driver
+F http://www.micro-bridge.com/data/CRpowtech/PT4115E.pdf
+$ENDCMP
+#
+$CMP CP-D
+D Polarized capacitor 7.3x4.3 mm (D case)
+K Capacitor
+$ENDCMP
+#
+$CMP SS14
+D Schottky Rectifier
+K Diode, Schottky
+F https://www.fairchildsemi.com/datasheets/SS/SS14.pdf
+$ENDCMP
+#
+$CMP CD75
+D SMD Power Inductor
+K Inductor
+$ENDCMP
+#
+$CMP R1210
+D Chip resistor 3.1x2.6 mm
+K Resistor, 1/2W
+$ENDCMP
+#
+$CMP TPH-2.5-SM-Q2.5
+D 2.5 mm Diameter Hole with Surface Mount Test Point, Square 2.5x2.5 mm
+K Test point
+$ENDCMP
+#
+$CMP TPH-3.5-SM-Q3.5
+D 3.5 mm Diameter Hole with Surface Mount Test Point, Square 3.5x3.5 mm
+K Test point
+$ENDCMP
+#
+$CMP R0805
+D Chip resistor 2x1.25 mm
+K Resistor, 1/8W
+$ENDCMP
+#
+$CMP MBI6651GST
+D Step-Down, 1A LED Driver
+K IC, Analog, Driver
+F http://www.mblock.com.tw/downfile.php?Code=854d9fca60b4bd07f9bb215d59ef5561
+$ENDCMP
+#
+$CMP C1206
+D Chip capacitor 3.2x1.6 mm
+K Capacitor
+$ENDCMP
+#
+$CMP DF12-4.0-36DP-0.5V
+D 0.5mm Pitch SMT Board-to-Board Connector, 36 pin
+K Connector, Female
+F https://www.hirose.com/product/en/download_file/key_name/DF12%284.0%29%2D20DP%2D0.5V%2886%29/category/Drawing%20(2D)/doc_file_id/38463/?file_category_id=6&item_id=05370053486&is_series=
+$ENDCMP
+#
+$CMP MH-2.3-5
+D Mounting Hole, 2.3 mm hole diameter, 5 mm pad diameter
+K Mounting hole
+$ENDCMP
+#
+$CMP TPS76701QD
+D Fast-Transient-Response 1-A Low-Dropout Linear Regulators
+K IC, Digital, LDO, Regulator
+F http://www.ti.com/lit/ds/symlink/tps767.pdf
+$ENDCMP
+#
+$CMP TP-SM-1
+D Surface Mount Test Point, 1 mm diameter
+K Test point
+$ENDCMP
+#
+$CMP TP-TH-1
+D Through-hole Test Point, 1 mm diameter hole
+K Test point
+$ENDCMP
+#
+$CMP DF13-6P-1.25H
+D 1.25mm Pitch Miniature Crimping Connector
+K Connector, Male
+F https://www.hirose.com/product/en/download_file/key_name/DF13%2D6P%2D1.25H%2820%29/category/Drawing%20(2D)/doc_file_id/38245/?file_category_id=6&item_id=05360255220&is_series=
+$ENDCMP
+#
+$CMP R0603
+D Chip resistor 1.6x0.8 mm
+K Resistor, 1/10W
+$ENDCMP
+#
+$CMP LED0603
+D Chip LED 1.6x0.8 mm
+K LED
+$ENDCMP
+#
+$CMP DS1021-1x6S
+D 2.54 mm Pin Header Single Row, 6 Circuits
+K Connector, Male
+F http://www.connfly.com/userfiles/image/UpLoadFile/File/2015/1/29/DS1021.pdf
+$ENDCMP
+#
+$CMP +V
+D Power Symbol
+$ENDCMP
+#
+$CMP +5V
+D Power Symbol
+$ENDCMP
+#
+$CMP +3V3
+D Power Symbol
+$ENDCMP
+#
+$CMP GND
+D Signal Ground Symbol
+$ENDCMP
+#
+# End Doc Library
