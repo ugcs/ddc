@@ -8,7 +8,7 @@ This repository contains guidelines for building and setting up the drones, addi
 Description
 -----------
 
-UgCS DDC requires MAVLink – compatible autopilot running ArduCopter firmware. Pixhawk or copies thereof can be used. These autopilots are widely available and available for purchase from most drone spare part dealers.
+UgCS DDC requires the custom Pixhawk firmware due to special flight mode and commands it uses. Pixhawk hardware or copies thereof can be used. These autopilots are widely available and available for purchase from most drone spare part dealers.
 
 Drones can be used with standard GPS units, but to ensure flight precision that is necessary for drone shows, we recommend using RTK GPS units.
 
