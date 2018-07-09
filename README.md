@@ -23,7 +23,7 @@ For drone show purposes, drones can be equipped with LED modules or other show e
 
 - [**PCB-KiCad**](./PCB-KiCad) contains PCB source project files for [KiCad EDA](http://kicad-pcb.org/)
 
-- [**WiFi**](./WiFi) contains information regarding setting up WiFi modules which enable simultaneous communication between the drones and the ground station
+- [**Datalink**](./Datalink) contains information regarding setting up WiFi modules which enable simultaneous communication between the drones and the ground station
 
 System requirements
 -------------------
