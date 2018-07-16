@@ -15,7 +15,13 @@ Drones can be used with standard GPS units, but to ensure flight precision that 
 For establishing reliable communication between multiple drones, we suggest using WiFi modules onboard drones rather than standard telemetry data links.
 For drone show purposes, drones can be equipped with LED modules or other show elements that can be controlled via PWM servo signal.
 
-- [**DDC**](./DDC) contains manuals regarding the setup and use of UgCS DDC software
+- [**Animation generator**](./Animation generator) contains drone dance trajectory generation User Guide.
+
+- [**Animation samples**](./Animation samples) contains animation samples.
+
+- [**Datalink**](./Datalink) contains information regarding setting up WiFi modules which enable simultaneous communication between the drones and the ground station
+
+- [**DDC**](./DDC) contains manuals regarding the setup and use of UgCS DDC software and running SITL User Guide.
 
 - [**Drone**](./Drone) contains guidelines for drone assembly, including the mounting and setup of RTK GPS system
 
@@ -23,7 +29,7 @@ For drone show purposes, drones can be equipped with LED modules or other show e
 
 - [**PCB-KiCad**](./PCB-KiCad) contains PCB source project files for [KiCad EDA](http://kicad-pcb.org/)
 
-- [**Datalink**](./Datalink) contains information regarding setting up WiFi modules which enable simultaneous communication between the drones and the ground station
+
 
 System requirements
 -------------------
