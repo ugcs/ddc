@@ -15,9 +15,9 @@ Drones can be used with standard GPS units, but to ensure flight precision that 
 For establishing reliable communication between multiple drones, we suggest using WiFi modules onboard drones rather than standard telemetry data links.
 For drone show purposes, drones can be equipped with LED modules or other show elements that can be controlled via PWM servo signal.
 
-- [**Animation generator**](./Animation\ generator) contains drone dance trajectory generation User Guide.
+- [**Animation_generator**](./Animation_generator) contains drone dance trajectory generation User Guide.
 
-- [**Animation samples**](./Animation\ samples) contains animation samples.
+- [**Animation_samples**](./Animation_samples) contains animation samples.
 
 - [**Datalink**](./Datalink) contains information regarding setting up WiFi modules which enable simultaneous communication between the drones and the ground station
 
