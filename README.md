@@ -54,4 +54,4 @@ Further information
 
 This repository is maintained by SPH Engineering, developers of UgCS ground control software for drones.
 
-If you have any questions about this project, feel free to reach out to us at <support@ugcs.com>
+If you have any questions about this project, feel free to reach out to us at <support@ugcs.com>.
