@@ -1,0 +1,22 @@
+name: MBRS540T3G
+description: Surface Mount Schottky Power Rectifier
+datasheet: http://www.onsemi.com/pub/Collateral/MBRS540T3-D.PDF
+keywords: Diode, Schottky
+
+schematic:
+  symbol: diode
+  options: schottky
+
+housing:
+  pattern: molded
+  options: polarized
+  bodyWidth: 5.59-6.1
+  bodyLength: 6.6-7.11
+  height: 1.9-2.41
+  leadSpan: 7.75-8.13
+  leadWidth: 2.92-3.07
+  leadLength: 0.76-1.27
+
+  padWidth: 2.8
+  padHeight: 3.8
+  padSpace: 4.35

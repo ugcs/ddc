@@ -1,0 +1,22 @@
+name: 90136-1202
+description: Header, Single Row, Vertical, Shrouded, 2 Circuits
+datasheet: http://www.molex.com/pdm_docs/sd/901361202_sd.pdf
+keywords: Connector, Male
+
+pinout: 1-2
+
+schematic:
+  symbol: connector
+  options: single, square-pin
+
+housing:
+  pattern: custom
+  options: polarized
+  bodyWidth: 7.21
+  bodyLength: 8.43
+  height: 10.9
+
+  holeDiameter: 1.1
+  pitch: 2.54
+  rowCount: 2
+  columnCount: 1

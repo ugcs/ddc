@@ -1,40 +1,51 @@
-UgCS DDC
+![alt text](https://github.com/ugcs/ddc/DroneShowSoftware_Logo.png "Drone Show Software")
+
+Drone Show Software
 =========
 
-UgCS DDC (Drone Dance Controller) is software designed for drone shows, allowing flight path planning as well as control of dozens of drones simultaneously in a synchronized manner.
+Drone Show Software is software designed for drone shows, allowing flight path planning as well as control of dozens of drones simultaneously in a synchronized manner.
 
-This repository contains guidelines for building and setting up the drones, adding and setting up RTK GPS units, WiFi and LED modules.
+This repository contains guidelines for building and setting up the drones, WiFi and LED modules as well as adding and setting up RTK GPS units.
 
 Description
 -----------
 
-UgCS DDC requires the custom Pixhawk firmware due to special flight mode and commands it uses. Pixhawk hardware or copies thereof can be used. These autopilots are widely available and available for purchase from most drone spare part dealers.
+Drone Show Software requires a custom Pixhawk firmware due to special flight mode and commands it uses. Pixhawk hardware or copies thereof can be used. These autopilots are widely available and available for purchase from most drone part dealers.
 
 Drones can be used with standard GPS units, but to ensure flight precision that is necessary for drone shows, we recommend using RTK GPS units.
 
-For establishing reliable communication between multiple drones, we suggest using WiFi modules onboard drones rather than standard telemetry data links.
+For establishing reliable communication between multiple drones, we suggest using 5GHz WiFi modules onboard drones rather than standard (433MHz) telemetry data links.
 For drone show purposes, drones can be equipped with LED modules or other show elements that can be controlled via PWM servo signal.
 
-- [**Animation_generator**](./Animation_generator) contains drone dance trajectory generation User Guide.
+- [**Drone_hardware**](./Drone_hardware) contains all the information for assembling, manufacturing and configuring drones, WiFi modules and LED payloads.
+
+ - [**3D_Printing**](./3D_Printing) contains STL files for 3D printing GPS and Flight controller cases.
+ 
+ - [**Airborne 5GHz WiFi**](./Airborne_5GHz_WiFi) contains guidelines and schematics to assemble Airborne 5GHz WiFi modules.
+
+ - [**Fireball LED payload**](./Fireball_LED_payload) contains guidelines and schematics to assemble Fireball LED payloads.
+
+ - [**PCB-KiCad**](./PCB-KiCad) contains PCB source project files for [KiCad EDA](http://kicad-pcb.org/)
+
+- [**Software_tools**](./Software_tools) contains all the necessary software tools to cofigure the drones and run the show.
+
+ - [**DDC_ConfigTool**](./Software_tools/DDC_ConfigTool) this tool is used to easily upload fimrmware and do accelerometer and compass calibration on many drones.
+ 
+ - [**Radio_updater**](./Software_tools/Radio_updater) used to upload 433MHz radio firmware to secondary channel telemetry data links.
+
+ - [**RTK_Tool**](./Software_tools/RTK_Tool) used to broadcast RTK GPS corrections to the drones.
+
+ - [**SITL_simulation**](./Software_tools/SITL_simulation) is used to perform simulated drone show flights.
 
 - [**Animation_samples**](./Animation_samples) contains animation samples.
 
-- [**Datalink**](./Datalink) contains information regarding setting up WiFi modules which enable simultaneous communication between the drones and the ground station
-
-- [**DDC**](./DDC) contains manuals regarding the setup and use of UgCS DDC software and running SITL User Guide.
-
-- [**Drone**](./Drone) contains guidelines for drone assembly, including the mounting and setup of RTK GPS system
-
-- [**LED**](./LED) contains the schematics and bill of materials for building LED modules that are used in drone shows
-
-- [**PCB-KiCad**](./PCB-KiCad) contains PCB source project files for [KiCad EDA](http://kicad-pcb.org/)
 
 
 
 System requirements
 -------------------
 
-System requirements for UgCS DDC are the same as system requirements for UgCS:
+System requirements for Drone Show Software:
 
 - *Operating system:* Windows 7 with SP1 or later; Windows 8; Windows 10.
 - *CPU:* Intel Core i7 or better.

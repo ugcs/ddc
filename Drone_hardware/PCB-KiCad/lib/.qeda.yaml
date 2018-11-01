@@ -1,0 +1,41 @@
+config:
+  pattern:
+    densityLevel: M
+    fontSize:
+      refDes: 0.8
+    minimum:
+      spaceForIron: 1
+ground:
+  - signal/GND
+library:
+  - module/led-driver-3w-700ma
+  - ledguhon/jh-9rgb14g45
+  - amass/xt30pwm
+  - molex/90136-1202
+  - onsemi/mbrs540t3g
+  - te/63849-1
+  - misc/mh-3.2-5
+  - amass/xt60pb
+  - crpowtech/pt4115e
+  - capacitor/cp-d
+  - onsemi/ss14
+  - inductor/cd75
+  - resistor/r1210
+  - misc/tph-2.5-sm-q2.5
+  - misc/tph-3.5-sm-q3.5
+  - resistor/r0805
+  - macroblock/mbi6651
+  - capacitor/c1206
+  - hirose/df12-4.0-36dp-0.5v
+  - misc/mh-2.3-5
+  - ti/tps767
+  - misc/tp-sm-1
+  - misc/tp-th-1
+  - hirose/df13-6p-1.25h
+  - resistor/r0603
+  - diode/led0603
+  - connfly/ds1021-1x6s
+power:
+  - +V
+  - +5V
+  - +3V3

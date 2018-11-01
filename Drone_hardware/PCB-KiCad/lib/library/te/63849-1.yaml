@@ -1,0 +1,22 @@
+name: 63849-1
+description: Faston 250 PCB Tab
+datasheet: http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=63849&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=63849-1
+keywords: Connector, Terminal
+
+pinout: 1-2
+
+schematic:
+  symbol: connector
+
+housing:
+  pattern: custom
+  bodyWidth: 0.76-0.85
+  bodyLength: 7.92
+  height: 10.81
+  bodyColor: silver
+
+  holeDiameter: 1.4
+  pitch: 5.08
+  columnCount: 1
+  rowCount: 2
+
