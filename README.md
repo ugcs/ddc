@@ -21,9 +21,9 @@ For drone show purposes, drones can be equipped with LED modules or other show e
 
  - [**3D_Printing**](./3D_Printing) contains STL files for 3D printing GPS and Flight controller cases.
  
- - [**Airborne 5GHz WiFi**](./Airborne_5GHz_WiFi) contains guidelines and schematics to assemble Airborne 5GHz WiFi modules.
+ - [**Airborne_5GHz_WiFi**](./Airborne_5GHz_WiFi) contains guidelines and schematics to assemble Airborne 5GHz WiFi modules.
 
- - [**Fireball LED payload**](./Fireball_LED_payload) contains guidelines and schematics to assemble Fireball LED payloads.
+ - [**Fireball_LED_payload**](./Fireball_LED_payload) contains guidelines and schematics to assemble Fireball LED payloads.
 
  - [**PCB-KiCad**](./PCB-KiCad) contains PCB source project files for [KiCad EDA](http://kicad-pcb.org/)
 
