@@ -1,4 +1,4 @@
-![alt text](https://github.com/ugcs/ddc/DroneShowSoftware_Logo.png "Drone Show Software")
+![Drone Show Software](./DroneShowSoftware_Logo.png)
 
 Drone Show Software
 =========
@@ -21,11 +21,11 @@ For drone show purposes, drones can be equipped with LED modules or other show e
 
  - [**3D_Printing**](./3D_Printing) contains STL files for 3D printing GPS and Flight controller cases.
  
- - [**Airborne_5GHz_WiFi**](./Airborne_5GHz_WiFi) contains guidelines and schematics to assemble Airborne 5GHz WiFi modules.
+ - [**Airborne 5GHz WiFi**](./Drone_hardware/Airborne_5GHz_WiFi) contains guidelines and schematics to assemble Airborne 5GHz WiFi modules.
 
- - [**Fireball_LED_payload**](./Fireball_LED_payload) contains guidelines and schematics to assemble Fireball LED payloads.
+ - [**Fireball LED payload**](./Drone_hardware/Fireball_LED_payload) contains guidelines and schematics to assemble Fireball LED payloads.
 
- - [**PCB-KiCad**](./PCB-KiCad) contains PCB source project files for [KiCad EDA](http://kicad-pcb.org/)
+ - [**PCB-KiCad**](./Drone_hardware/PCB-KiCad/lib) contains PCB source project files for [KiCad EDA](http://kicad-pcb.org/)
 
 - [**Software_tools**](./Software_tools) contains all the necessary software tools to cofigure the drones and run the show.
 
