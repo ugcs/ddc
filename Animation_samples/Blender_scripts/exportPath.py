@@ -7,7 +7,17 @@ scene_frames = 2600 # length of animation in frames
 # CHANGE THESE PARAMETERS ACCORDING TO DISTANCE AND VELOCITY SCRIPTS
 scale = 1.3 # scale of animation found using distance script
 blender_frame_rate = 24 # blender framerate found using velocity script
-frame_rate = 4 # our target, autopilot, framerate. Usually it's 4 FPS.
+frame_rate = 4 # target autopilot framerate, default value is 4
+
+print("\nBlender frame rate: " + str(blender_frame_rate))
+print("Target frame rate: " + str(frame_rate))
+
+if (blender_frame_rate % frame_rate != 0):
+    nth_frame = int(round(blender_frame_rate / frame_rate))
+else:
+    nth_frame = int(blender_frame_rate / frame_rate)
+
+print("\nCalculating coordinates for every " + str(nth_frame) + "th frame")
 
 path = os.getcwd()
 print("\nCurrent directory: " + path + "\n")
@@ -15,7 +25,7 @@ print("\nCurrent directory: " + path + "\n")
 try:
         os.mkdir("paths")
 except OSError:
-        print("Paths folder found\n")
+        print("Path folder found\n")
 else:
         print("Successfully created paths folder\n")
 
@@ -25,7 +35,7 @@ for i in range(0, number_of_uavs):
     file = open('paths/APM-' + str(i+1) + '.PATH', 'wb')
     # iterate through frames
     for f in range(sce.frame_start, scene_frames):
-        if (((f-1) % (blender_frame_rate / frame_rate)) == 0):
+        if (((f-1) % nth_frame) == 0):
             sce.frame_set(f)
             # get scaled position
             x = int(ob.matrix_world.to_translation().x * 100 * scale)
