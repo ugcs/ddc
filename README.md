@@ -25,7 +25,7 @@ For drone show purposes, drones can be equipped with LED modules or other show e
 
  - [**Fireball LED payload**](./Drone_hardware/Fireball_LED_payload) contains guidelines and schematics to assemble Fireball LED payloads.
 
- - [**PCB-KiCad**](./Drone_hardware/PCB-KiCad/lib) contains PCB source project files for [KiCad EDA](http://kicad-pcb.org/)
+ - [**PCB-KiCad**](./Drone_hardware/PCB-KiCad/lib) contains PCB source project files for [KiCad EDA](http://kicad.org/)
 
 - [**Software_tools**](./Software_tools) contains all the necessary software tools to cofigure the drones and run the show.
 
